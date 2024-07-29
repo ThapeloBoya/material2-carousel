@@ -9,7 +9,8 @@ import {
   HammerGestureConfig,
   HAMMER_GESTURE_CONFIG
 } from '@angular/platform-browser';
-import { ModuleWithProviders } from '@angular/compiler/src/core';
+import { ModuleWithProviders } from '@angular/core';
+
 
 // https://github.com/angular/angular/issues/10541#issuecomment-300761387
 export class MatCarouselHammerConfig extends HammerGestureConfig {
